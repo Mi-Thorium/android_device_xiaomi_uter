@@ -8,3 +8,7 @@ vendor.audio.feature.fluence.enable=false
 
 # Xiaomi uter - Camera
 persist.camera.gyro.disable=0
+
+# Xiaomi uter - SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=MSM8953
