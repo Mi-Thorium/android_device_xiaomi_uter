@@ -59,6 +59,9 @@ function blob_fixup() {
         vendor/lib/libmpbase.so)
             "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
             ;;
+        vendor/lib64/libgf_ca.so)
+            sed -i 's|/system/etc/firmware|/vendor/////firmware|g' "${2}"
+            ;;
     esac
 }
 
