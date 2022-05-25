@@ -240,6 +240,17 @@ vendor/lib64/hw/gf_fingerprint.default.so|b09aba758c469f3e3ff04197a723a15fbdfafe
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|4b3e658f52dfe31d7883f19bbeb8e05d323ba607|feee131f714ed9a7dd93e7ba9bfc768cbf651426
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|c9d0251df63d8e34b6d70a59ad7b774c9f640fa1
 
+# Firmware (Goodix Fingerprint)
+etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
+etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
+etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02
+etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03
+etc/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04
+etc/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05
+etc/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06
+etc/firmware/goodixfp.mbn:vendor/firmware/goodixfp.mbn
+etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt
+
 # Firmware (GPU) - from PAN
 vendor/firmware/a506_zap.b00
 vendor/firmware/a506_zap.b01
