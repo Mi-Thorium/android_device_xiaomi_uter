@@ -9,6 +9,9 @@ vendor.audio.feature.fluence.enable=false
 # Xiaomi uter - Camera
 persist.camera.gyro.disable=0
 
+# Xiaomi uter - Encryption
+ro.crypto.volume.contents_mode=aes-256-xts
+
 # Xiaomi uter - SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8953
