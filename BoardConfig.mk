@@ -20,8 +20,8 @@ TARGET_SCREEN_DENSITY := 400
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := uter_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/uter
+BOARD_KERNEL_CMDLINE += androidboot.android_dt_dir=/non-existent androidboot.boot_devices=soc/7824900.sdhci
+BOARD_VENDOR_KERNEL_MODULES += $(wildcard device/xiaomi/kernel-mithorium/uter/*.ko)
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
