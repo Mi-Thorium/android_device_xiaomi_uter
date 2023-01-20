@@ -6,6 +6,9 @@ persist.vendor.audio.fluence.voicerec=false
 ro.vendor.audio.sdk.fluencetype=none
 vendor.audio.feature.fluence.enable=false
 
+# Xiaomi uter - Bluetooth
+bluetooth.sco.disable_enhanced_connection=1
+
 # Xiaomi uter - Camera
 persist.camera.gyro.disable=0
 
