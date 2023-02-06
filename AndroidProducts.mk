@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_uter.mk
+    $(LOCAL_DIR)/bootleg_uter.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_uter-user \
-    lineage_uter-userdebug \
-    lineage_uter-eng
+    bootleg_uter-user \
+    bootleg_uter-userdebug \
+    bootleg_uter-eng
