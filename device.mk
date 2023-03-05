@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     libshims_ui \
     libwui
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/uter/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hvdcp_opti
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.xiaomi.device.rc
