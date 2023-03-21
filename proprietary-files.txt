@@ -15,10 +15,10 @@ etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
-# Audio dirac - from mido
+# Audio dirac
+lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so
+lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so
 vendor/etc/diracmobile.config
-vendor/lib/soundfx/libdirac.so
-vendor/lib/libDiracAPI_SHARED.so
 
 # ADSP modules - Dirac - from daisy
 vendor/lib/rfsa/adsp/dirac_resource.dar
